@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+
+    margin: auto;
+    padding: 32px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF1744;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+

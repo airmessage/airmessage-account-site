@@ -1,0 +1,19 @@
+{
+  "name": "airmessage-account-site",
+  "version": "1.0.0",
+  "description": "A page that lets AirMessage users delete their account",
+  "scripts": {
+    "build": "webpack"
+  },
+  "private": true,
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "firebase": "^10.10.0"
+  }
+}
